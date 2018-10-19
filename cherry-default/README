@@ -1,0 +1,9 @@
+结论：
+	保持 RedisTemplate 的泛型一致，如果缓存的实体是 implements 了 Serializable 接口，并有自己的 serialVersionUID 
+	则可以完成缓存 该实体 的操作
+	
+	把缓存的实体的 implements Serializable 接口并 serialVersionUID 去掉后，实体无法进行缓存
+	
+	下一个子项目测试目标：
+		因为无法保证每个使用 reids 的实体都实现了 Serializable 接口并有各自的 serialVersionUID ，所以使用某个已有的 RedisSerializer 作为测试条件
+		

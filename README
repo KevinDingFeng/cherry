@@ -1,0 +1,5 @@
+cherry
+	樱桃，该项目用来学习 spring boot 对 redis 数据库可进行的序列化和反序列化操作。分别使用 String 类型和自定义 Object 类型测试
+
+结构：
+	cherry-default		使用 redis template 自带的序列化方法 
