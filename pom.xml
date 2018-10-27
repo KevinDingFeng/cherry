@@ -51,5 +51,6 @@
 		<module>cherry-sys</module>
 		<module>cherry-sys-test</module>
 		<module>cherry-ehcache</module>
+		<module>cherry-verification</module>
 	</modules>
 </project>
